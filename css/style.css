@@ -1,263 +1,157 @@
-.container{
-	width: 1140px;
-	margin: 0 auto;
-	background: #dcdcdc;
+*{
+	padding: 0;
+	margin: 0;
 }
-.header{
-	width: calc(100% / 12 *12);
-	background: #101529;
-	display: flex;
-	justify-content: flex-end;
-}
+@media screen and (min-width: 0px) and (max-width: 400px) {
 
-.right{
-	width: calc(100% / 12 * 9);
-	height: 90px;
-	
-	background: #ef3d4d;
-}
-.body{
-	width: calc(100% / 12 * 12);
-	height: 400px;
-	background: #4c86c6;
-}
-.content{
-	width: calc(100% / 12 * 12);
-	height: 300px;
-	background: ;
-}
-.main{
-	width: calc(100% / 12 * 6);
-	height: 300px;
-	float: left;
-	background: #24344b;
-}
-.main2{
-	width: calc(100% / 12 * 6);
-	height: 300px;
-	float: left;
-	display: flex;
-	flex-direction: column;
-	
-	align-items: flex-end;
-}
-.image{
-	width: calc(100% / 12 * 6);
-	height: 150px;
-	background: #c1e4e6;
-}
-.extra{
-	width: calc(100% / 12 * 6);
-	height: 150px;
-	background: #4dbd97;
-}
-.footer{
-	width: calc(100% / 12 * 12);
-	height: 100px;
-	background: #ffd169;
-}
- @media screen and (max-width: 900px) {
-	
-	.container{
-		width: 800px;
+	.mobile{
+		width: 400px;
 		margin: 0 auto;
-		background: #dcdcdc;
 	}
-	.header{
-		background: #101529;
+	.headermobile{
 		width: 100%;
-		z-index: 9;
+		background: #0F1629;
+		height: 70px;
 	}
-	.right{
-		z-index: 8;
+	.menumobile{
 		width: 100%;
-		background: blue;
-		opacity: 0%;
+		background: #EF3D4D;
+		height: 70px;
 	}
-	.body{
+	.heromobile{
 		width: 100%;
-		height: 300px;
-		background: #4c86c6;
+		background: #4C86C6;
+		height: 210px;
 	}
+	.mainmobail{
+		width: 100%;
+		background: #24344B;
+		height: 210px;
+	}
+	.bannermobail{
+		width: 100%;
+		background: #FDD168;
+		height: 140px;
+	}
+	.extramobile{
+		width: 100%;
+		background: #4DBD97;
+		height: 140px;
+	}
+	.imagemobile{
+		width: 100%;
+		background: #C1E4E6;
+		height: 140px;
+	}
+}
 
-	.content2{
+@media screen and (min-width: 401px) and (max-width: 900px) {
+ 	
+ 	.planshet{
+ 		width: 900px;
+ 		margin: 0 auto;
+ 	}
+ 	.headerplanshet{
 		width: 100%;
-		height: 600px;
-			
+		background: #0F1629;
+		height: 70px;
 	}
-	.livo{
-		background: #ef3d4d;
-		width: calc(100% / 12 * 3);
-		height: 600px;
+	.heroplanshet{
+		height: 280px;
+		width: 100%;
+		background: #4C86C6;
+	}
+	.menuplanshet{
+		width: 25%;
+		height: 550px;
+		background: #EF3D4D;
 		float: left;
 	}
-	.pravo{
-		background: #;
-		width: calc(100% / 12 * 9);
-		height: 600px;
-		float: right;
+	.rightplanshet{
+		width: 75%;
+		height: 500px;
 		display: flex;
 		flex-wrap: wrap;
+		float: right;
+		
 	}
-	.main22{
+	.mainplanshet{
+		width: 100%;
 		height: 300px;
+		background: #24344B;
+	}
+	.bannerplanshet{
 		width: 100%;
-		background: #24344b;
+		height: 125px;
+		background: #FDD168;
 	}
-	.banner2{
-		height: 150px;
-		width: 100%;
-		background: #ffd169;
+	.extraplanshet{
+		width: 75%;
+		height: 125px;
+		background: #4DBD97;
 	}
-	.extra2{
-		height: 150px;
-		width: calc(100% / 12 * 8);
-		background: #c1e4e6;
+	.imageplanshet{
+		width: 25%;
+		height: 125px;
+		background: #C1E4E6;
 	}
-	.image2{
-		height: 150px;
-		width: calc(100% / 12 * 4);
-		background: #4dbd97;
-	}
-	.content{
-		width: 0;
-		height: 0;
-	}
-	.main{
-		width: 0;
-		height: 0;
-	}
-	.main2{
-		width: 0;
-		height: 0;
-	}
-	.image{
-		width: 0;
-		height: 0;
-	}
-	.extra{
-		width: 0;
-		height: 0;
-	}
-	.footer{
-		height: 0;
-		width: 0;
-	}
-
 }
- @media screen and (max-width: 400px) {
-
- 	.container{
-	width: 400px;
-	margin: 0 auto;
-	background: #dcdcdc;
-	
-}
-.header3{
-	width: calc(100% / 12 *12);
-	background: #101529;
-	height: 70px;
-}
-.menu3{
-	width: calc(100% / 12 *12);
-	background: #ef3d4d;
-	height: 70px;
-}
-.hero3{
-	width: calc(100% / 12 *12);
-	background: #4c86c6;
-	height: 200px;
-}
-.main3{
-	width: calc(100% / 12 *12);
-	background: #24344b;
-	height: 200px;
-}
-.banner3{
-	width: calc(100% / 12 *12);
-	background: #ffd169;
-	height: 170px;
-}
-.extra3{
-	width: calc(100% / 12 *12);
-	background: #4dbd97;
-	height: 170px;
-}
-.image3{
-	width: calc(100% / 12 *12);
-	background: #c1e4e6;
-	height: 170px;
-}
-.container{
-		width: 800px;
+@media screen and (min-width: 901px) {
+	.desctop{
+		width: 901px;
 		margin: 0 auto;
-		background: #dcdcdc;
 	}
-	.header{
-		background: #101529;
+	.headerdesctop{
 		width: 100%;
-		z-index: 9;
-	}
-	.right{
-		width: 0;
-		height: 0;
-	}
-	.body{
-		width: 0;
-		height: 0;
-	}
+		height: 70px;
+		background: #0F1629;
+		display: flex;
 
-	.content2{
-		width: 0;
-		height: 0;
-			
 	}
-	.livo{
-		width: 0;
-		height: 0;
+	.menudesctop{
+		width: 75%;
+		height: 70px;
+		background: #EF3D4D;
+		float: right;
+		
 	}
-	.pravo{
-		width: 0;
-		height: 0;
+	.herodesctop{
+		width: 100%;
+		height: 420px;
+		background: #4C86C6;
 	}
-	.main22{
-		width: 0;
-		height: 0;
+	.maindesctop{
+		width: 50%;
+		height: 300px;
+		background: #24344B;
+		float: left;
 	}
-	.banner2{
-		width: 0;
-		height: 0;
+	.rightdesctop{
+		width: 50%;
+		height: 300px;
+		display: flex;
+		flex-wrap: wrap;
+		
 	}
-	.extra2{
-		width: 0;
-		height: 0;
+		
+	.imagedesctop{
+		width: 50%;
+		height: 150px;
+		background: #4DBD97;
 	}
-	.image2{
-		width: 0;
-		height: 0;
+	.extradesctop{
+		width: 50%;
+		height: 150px;
+		background: #C1E4E6;
 	}
-	.content{
-		width: 0;
-		height: 0;
+	.bannerdesctop{
+		width: 100%;
+		height: 150px;
+		background: #FDD168;
 	}
-	.main{
-		width: 0;
-		height: 0;
-	}
-	.main2{
-		width: 0;
-		height: 0;
-	}
-	.image{
-		width: 0;
-		height: 0;
-	}
-	.extra{
-		width: 0;
-		height: 0;
-	}
-	.footer{
-		height: 0;
-		width: 0;
+	.block1desctop  {
+		width: 50%;
+		height: 150px;
+		
 	}
 }
